@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    cursor: crosshair;
+}
+
+img {
+    border-radius: 50px;
+    border: 5px solid rgb(6, 21, 240);
+}
+
+h3{
+text-align: center;
+color:blue;
+}
+
