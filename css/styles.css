@@ -1,8 +1,11 @@
+html,
 body {
     background-color: black;
     color: white;
     font-style: italic;
     cursor: crosshair;
+    padding: 0;
+    margin: 0;
 }
 
 img {
@@ -15,3 +18,25 @@ text-align: center;
 color:blue;
 }
 
+nav {
+    background-color: grey;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: skyblue;
+}
